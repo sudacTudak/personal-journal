@@ -1,0 +1,15 @@
+.journal-add-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px !important;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.journal-add-btn img {
+  height: 20px;
+  width: 20px;
+}

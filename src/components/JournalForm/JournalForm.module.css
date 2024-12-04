@@ -1,0 +1,107 @@
+.journal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+}
+
+.journal-form textarea {
+  flex: 1 1 auto;
+}
+
+.journal-form__send-btn {
+  align-self: flex-start;
+}
+
+.journal-form__title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.journal-form__textarea {
+  background-color: rgba(255, 255, 255, 0.03);
+  resize: none;
+  border: none;
+  min-height: 300px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.journal-form__textarea.focused {
+  border-bottom: 1px solid #fff;
+}
+
+.journal-form__textarea:focus,
+.journal-form__textarea:focus-visible {
+  outline: none;
+}
+
+.journal-form__title-field {
+  flex: 1 1 auto;
+}
+
+.field {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.field.focused {
+  border-color: #fff;
+}
+
+.field__input {
+  flex: 1 1 auto;
+}
+
+.title-field.focused {
+  border-bottom: 1px solid #fff;
+}
+
+.title-field__btn {
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.title-field__btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.field__input:focus,
+.field__input:focus-visible {
+  outline: none;
+}
+
+.title-field__input:focus,
+.title-field__input:focus-visible {
+  outline: none;
+}
+
+.field__info {
+  flex: 0 0 140px;
+  display: flex;
+  align-items: center;
+}
+
+.field__icon {
+  display: inline-block;
+  margin-right: 20px;
+  stroke: rgba(255, 255, 255, 0.6);
+}
+
+.field__label {
+  flex: 1 1 auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.invalid {
+  border: 1px solid red;
+  background: rgb(245, 171, 171);
+}

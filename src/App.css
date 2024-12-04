@@ -1,0 +1,25 @@
+.app {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.app__left-panel {
+  flex: 0 0 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.app__body {
+  flex: 1 1 auto;
+  padding: 50px;
+}
+
+.app__journal-list {
+  flex: 1 1 auto;
+  max-height: calc(100vh - 170px);
+  overflow: auto;
+}
